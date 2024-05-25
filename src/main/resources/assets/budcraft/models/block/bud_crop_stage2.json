@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "budcraft:block/bud_crop_stage2"
+  }
+}
