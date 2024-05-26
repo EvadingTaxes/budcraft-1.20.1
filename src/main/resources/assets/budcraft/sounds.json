@@ -1,0 +1,8 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.budcraft.smoking_joint",
+    "sounds": [
+      "budcraft:smoking_joint"
+    ]
+  }
+}

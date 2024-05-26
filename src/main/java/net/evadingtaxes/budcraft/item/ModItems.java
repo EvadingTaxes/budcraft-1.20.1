@@ -2,6 +2,7 @@ package net.evadingtaxes.budcraft.item;
 
 import net.evadingtaxes.budcraft.BudCraft;
 import net.evadingtaxes.budcraft.block.ModBlocks;
+import net.evadingtaxes.budcraft.item.custom.JointItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
@@ -22,6 +23,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ROLLING_PAPER = registerItem("rolling_paper",
             new Item(new FabricItemSettings()));
+    public static final Item JOINT = registerItem("joint",
+            new JointItem(new FabricItemSettings().maxCount(8)));
 
 
     private static Item registerItem(String name, Item item) {

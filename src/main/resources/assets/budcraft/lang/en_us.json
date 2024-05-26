@@ -6,7 +6,13 @@
   "item.budcraft.dried_hemp_leaf": "Dried Hemp Leaf",
   "item.budcraft.rolling_paper": "Rolling Paper",
 
+  "item.budcraft.joint": "Joint",
+
   "block.budcraft.hemp_block": "Hemp Leaf Block",
+
+  "effect.budcraft.stoned": "Stoned",
+
+  "sounds.budcraft.smoking_joint": "Smokes Joint",
 
   "itemgroups.budcraft": "Budcraft"
 }

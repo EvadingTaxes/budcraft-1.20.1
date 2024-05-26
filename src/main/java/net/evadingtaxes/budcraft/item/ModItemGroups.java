@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItems.DRIED_HEMP_LEAF);
                         entries.add(ModItems.ROLLING_PAPER);
 
+                        entries.add(ModItems.JOINT);
+
                         entries.add(ModBlocks.HEMP_BLOCK);
 
 

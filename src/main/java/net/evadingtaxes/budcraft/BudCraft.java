@@ -1,8 +1,10 @@
 package net.evadingtaxes.budcraft;
 
 import net.evadingtaxes.budcraft.block.ModBlocks;
+import net.evadingtaxes.budcraft.effect.ModEffects;
 import net.evadingtaxes.budcraft.item.ModItemGroups;
 import net.evadingtaxes.budcraft.item.ModItems;
+import net.evadingtaxes.budcraft.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,8 +16,11 @@ public class BudCraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
+		ModEffects.registerEffects();
+
+		ModSounds.registerSounds();
 	}
 }
