@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroups.budcraft"))
                     .icon(() -> new ItemStack(ModItems.HEMP_LEAF)).entries((displayContext, entries) -> {
                         entries.add(ModItems.HEMP_SEEDS);
+                        entries.add(ModBlocks.HEMP_BLOCK);
                         entries.add(ModItems.HEMP_LEAF);
                         entries.add(ModItems.BUD);
                         entries.add(ModItems.GROUND_BUD);
@@ -25,7 +26,6 @@ public class ModItemGroups {
 
                         entries.add(ModItems.JOINT);
 
-                        entries.add(ModBlocks.HEMP_BLOCK);
 
 
                     }).build());
